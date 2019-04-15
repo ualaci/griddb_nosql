@@ -1,0 +1,16 @@
+package ex2;
+public class ex2 {
+    public static void main (String[] args) throws Exception {
+        Data d1 = new Data ("2/1/1997");
+        Data d2 = new Data(5,10,1997);
+
+        //System.out.printf( "a data eh: %d| %d | %d", d1.getDia(), d1.getMes(), d1.getAno());
+        //System.out.printf( "a data eh: %d| %d | %d", d2.getDia(), d2.getMes(), d2.getAno());
+        System.out.println(d1);
+        System.out.println(d2);
+        System.out.println("\nAs datas sao iguais? "+d1.equals(d2));
+
+    }
+
+}
+
